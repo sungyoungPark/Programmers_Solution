@@ -88,4 +88,3 @@ print("——")
 print(solution(")("))
 print("——")
 print(solution("()))((()"))
-
