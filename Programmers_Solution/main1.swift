@@ -60,7 +60,7 @@ func permutation(_ n : Int , _ r : Int, _ perArr : [Int] ,  _ perCheck : [Int]){
         // print()
         return
     }
-    
+   
     for i in 0...n-1{
         if perCheck[perCheck.index(perCheck.startIndex, offsetBy: i)] == 0{
             //perArr1.append(i)
