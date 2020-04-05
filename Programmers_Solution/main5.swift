@@ -10,7 +10,6 @@ func solution(_ board:[[Int]], _ moves:[Int]) -> Int {
     myBoard = board
     
     var stack : [Int] = []
-    
     for i in moves{
         let newUpdate = checkZero(arrs: myBoard, myIndex: i) //스택에 새롭게 추가 될 값
         print(newUpdate)
