@@ -5,7 +5,7 @@ var r = 0
 
 //n개의 수 중에서 r개를 뽑음
 //var rePerArr1 = [Int]()
-//var myArr = [Int]()
+//var myArr = [Int]() 
 
 var myArr = [Int]()
 var count = 0
