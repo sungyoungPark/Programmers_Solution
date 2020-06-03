@@ -52,3 +52,4 @@ func dfsAll(_ n :Int){
 
 //print(solution(    3, [[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
 print(solution(    3, [[1, 1, 0], [1, 1, 1], [0, 1, 1]]))
+
