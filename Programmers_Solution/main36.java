@@ -1,3 +1,4 @@
+//우선순의 큐 쓰는 것이 중요, PriorityQueue 사용법이 중요함
 import java.util.*;
 import java.io.*;
 
