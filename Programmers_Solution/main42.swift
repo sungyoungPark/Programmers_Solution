@@ -15,7 +15,7 @@ func solution(_ food:[Int]) -> String {
         a += 1
         return res
     }.joined()
-   
+  
     return des + "0" + des.reversed()
 }
 
