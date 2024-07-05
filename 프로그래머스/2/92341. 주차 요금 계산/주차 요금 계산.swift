@@ -82,15 +82,12 @@ func solution(_ fees:[Int], _ records:[String]) -> [Int] {
         }
     }
     
-//    print(inStr)
-//    print(outStr)
-
     var index = 0
     for inData in inStr {
         let splInData = inData.components(separatedBy: " ")
         
         let splOutData = index <= outStr.count - 1 ?  outStr[index].components(separatedBy: " ") : "23:59 99999 OUT".components(separatedBy: " ")
-       
+        print(splOutData)
         if splInData[1] == splOutData[1] { //출차 시간 비교
             let inTime = splInData[0].components(separatedBy: ":")
             let inHour = Int(inTime[0])!
@@ -156,25 +153,5 @@ func solution(_ fees:[Int], _ records:[String]) -> [Int] {
         }
     }
     
-//    let my = ansDic.sorted { dic1, dic2 in
-//        if Int(dic1.key)! < Int(dic2.key)! {
-//            return true
-//        }
-//        return false
-//    }
-//        .compactMap { dic in
-//        if dic.value <= fees[0] {   //기본 시간
-//            return fees[1]
-//        }
-//        else {
-//            let t = ((dic.value - fees[0]) / fees[2]) * fees[3]
-//            let k = ((dic.value - fees[0]) % fees[2]) == 0 ? 0 : fees[3]
-//            return fees[1] + t + k
-//        }
-//    }
-    
-    
-//    print(ansDic)
-//    print(my)
     return res
 }
